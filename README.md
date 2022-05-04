@@ -1,5 +1,6 @@
-# Launch X Node JS Playbook 🚀 de @seus23
+# Launch X Node JS 
+# FIZZBUZZ 🚀 de @seus23
 
-<img width="1247" alt="image" src="https://user-images.githubusercontent.com/17634377/159151704-8949639b-ae5f-405a-a8b8-8d97f3f150cd.png">
+<img width="1247" alt="image" src="https://user-images.githubusercontent.com/17634377/165124418-8396bcb9-9845-494d-a362-7be3db99b748.png">
 
-Repositorio para guardar las prácticas de Launch X.
+Repositorio para guardar la práctica de fizzbuzz y hacer funcionar las pruebas automatizadas.
