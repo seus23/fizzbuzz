@@ -24,4 +24,16 @@ describe("TDD a clase FizzbuzzService", () => {
         const trick35 = FizzbuzzService.applyValidationInExplorer(explorer15);
         expect(trick35.trick).toBe("FIZZBUZZ");
     });
+
+    test("5) FIZZBUZZ by number", () => {
+        const score1 = FizzbuzzService.applyValidationInNumber(15);
+        const score2 = FizzbuzzService.applyValidationInNumber(3);
+        const score3 = FizzbuzzService.applyValidationInNumber(5);
+        const score4 = FizzbuzzService.applyValidationInNumber(1);
+
+        expect(score1).toBe("FIZZBUZZ");
+        expect(score2).toBe("FIZZ");
+        expect(score3).toBe("BUZZ");
+        expect(score4).toBe(1);
+    });
 });
