@@ -17,4 +17,9 @@ describe("Unit Tests for ExplorerController Class", () => {
         expect(hmExplorers).toBe(5);
     });
 
+    test("4) fizzbuzz by number", () =>{
+        const fbByNumber = ExplorerController.getFizzbuzzByNumber(15);
+        expect(fbByNumber).toBe("FIZZBUZZ")
+    });
+
 });
