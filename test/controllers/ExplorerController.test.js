@@ -11,4 +11,10 @@ describe("Unit Tests for ExplorerController Class", () => {
         const expUsernames = ExplorerController.getExplorersUsernamesByMission('node');
         expect(expUsernames).toContain("ajolonauta1");
     });
+
+    test("3) Cunatos explorers en java", () => {
+        const hmExplorers = ExplorerController.getExplorersAmonutByMission('java');
+        expect(hmExplorers).toBe(5);
+    });
+
 });
