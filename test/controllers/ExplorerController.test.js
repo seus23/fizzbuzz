@@ -19,7 +19,7 @@ describe("Unit Tests for ExplorerController Class", () => {
 
     test("4) fizzbuzz by number", () =>{
         const fbByNumber = ExplorerController.getFizzbuzzByNumber(15);
-        expect(fbByNumber).toBe("FIZZBUZZ")
+        expect(fbByNumber).toBe("FIZZBUZZ");
     });
 
 });
